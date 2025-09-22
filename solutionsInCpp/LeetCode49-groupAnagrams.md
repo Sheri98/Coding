@@ -104,14 +104,7 @@ public:
 
 ---
 
-## ⚖️ Comparison
-
-| Approach       | Time Complexity    | Space Complexity | Notes                  |
-| -------------- | ------------------ | ---------------- | ---------------------- |
-| Sorting-based  | **O(n · k log k)** | O(n · k)         | Simple, intuitive      |
-| Counting-based | **O(n · k)**       | O(n · k)         | Faster, avoids sorting |
-
----
+In practice, sort() version has more speed.
 
 Both are valid. Counting-based is generally preferred for performance when `k` (string length) is large.
 
